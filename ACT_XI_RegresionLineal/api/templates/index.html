@@ -17,7 +17,7 @@
                 <h2>Prediccion de Salario</h2>
                 <form id="predictionForm">
                     <div class="form-group">
-                        <label for="x">Edad:</label>
+                        <label for="x">Años de Experiencia:</label>
                         <input type="number" id="x" name="x" min="18" max="100" required>
                     </div>
                     <button type="submit">Predecir</button>
@@ -27,16 +27,16 @@
             <section class="result-section" id="resultSection" style="display: none;">
                 <h2>Resultado</h2>
                 <div class="result-content">
-                    <p><strong>Edad:</strong> <span id="inputValue"></span> años</p>
+                    <p><strong>Años de Experiencia:</strong> <span id="inputValue"></span></p>
                     <p><strong>Salario Estimado:</strong> $<span id="predictionValue"></span></p>
                 </div>
             </section>
 
             <section class="info-section">
                 <h2>Acerca del Modelo</h2>
-                <p>Este modelo implementa una regresion lineal simple que predice el salario estimado de una persona basandose en su edad.</p>
-                <p>El modelo fue entrenado con datos historicos de usuarios que contienen informacion de edad y salario.</p>
-                <p>La ecuacion del modelo es: Salario = m(Edad) + b</p>
+                <p>Este modelo implementa una regresion lineal simple que predice el salario estimado de una persona basandose en sus años de experiencia.</p>
+                <p>El modelo fue entrenado con datos historicos de usuarios que contienen informacion de años de experiencia y salario.</p>
+                <p>La ecuacion del modelo es: Salario = m(Años de Experiencia) + b</p>
             </section>
         </main>
     </div>
