@@ -17,7 +17,7 @@ cd ACT_XI_RegresionLineal
 python manage.py runserver 8000
 ```
 
-Acceder en: http://localhost:8000
+Acceder en: http://localhost:8000 UNA VEZ INICIADO ACCEDA A ESTE LINK
 
 ## ACT XII: Regresion Logistica
 
@@ -28,7 +28,7 @@ cd ACT_XII_RegresionLogistica
 python manage.py runserver 8001
 ```
 
-Acceder en: http://localhost:8001
+Acceder en: http://localhost:8001 UNA VEZ INICIADO ACCEDA A ESTE LINK
 
 ## Notas
 
